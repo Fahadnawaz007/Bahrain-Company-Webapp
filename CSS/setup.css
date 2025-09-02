@@ -1,0 +1,135 @@
+.packages-container {
+    align-self: center;
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+    max-width: 1095px;
+    flex-direction: column;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .packages-header {
+    display: flex;
+    width: 335px;
+    max-width: 100%;
+    flex-direction: column;
+  }
+  
+  .packages-title {
+    color: var(--Blue, #073f73);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .packages-note {
+    color: var(--Gray, #5e5e5e);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    margin-top: 8px;
+  }
+  
+  .packages-grid {
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 18px;
+    color: var(--White, #fff);
+    font-weight: 700;
+    line-height: 1;
+  }
+  
+  .package-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    position: relative;
+    min-height: 163px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding:42px 154px 20px 0px;
+    margin-top: 16px;
+  }
+  
+  .package-card:first-child {
+    margin-top: 0;   
+  }
+
+  .package-card>a{
+    text-decoration: none;
+  }
+
+  
+  .package-bg {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 85%;
+    object-fit: cover;
+  }
+  
+  .package-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .package-icon {
+    aspect-ratio: 1.08;
+    object-fit: contain;
+    width: 55px;
+    align-self: center;
+  }
+  
+  .package-name {
+    align-self: stretch;
+    margin-top: 16px;
+  }
+
+  .help-support {
+    margin-top: 30em;
+  }
+
+  
+  
+  @media (max-width: 991px) {
+    .layout-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    .packages-container{
+      margin-top: 0px;
+      margin-bottom: 100px;
+    }
+    .sidebar,
+    .main-content {
+      width: 100%;
+    }
+  
+    .header {
+      padding: 0 20px;
+    }
+  
+    .package-card {
+      padding: 0 20px;
+      min-height: 108px;
+      align-items: normal;
+    }
+    .package-content{
+      transform: translate(-53%, -15%);
+    }
+
+    .package-name{
+      margin-top: 2px;
+    }
+  
+    .search-text,
+    .org-selector {
+      white-space: initial;
+    }
+    
+  }

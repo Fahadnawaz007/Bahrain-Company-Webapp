@@ -1,0 +1,276 @@
+body{
+  margin: 0;
+}
+.upload-container {
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    color: var(--black, rgba(0, 0, 0, 1));
+    letter-spacing: 0.28px;
+    font: 500 14px Manrope, sans-serif;
+  }
+  
+  .preview-image {
+    aspect-ratio: 1.93;
+    object-fit: contain;
+    object-position: center;
+    width: 96px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+  
+  .upload-options {
+    border-radius: 7px;
+    background: var(--White, #fff);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-top: 18px;
+    position: relative;
+    width: 160%;
+    flex-direction: column;
+    align-items: start;
+    padding: 23px 0 23px 20px;
+  }
+  
+  .upload-option {
+    display: flex;
+    gap: 19px;
+    cursor: pointer;
+  }
+  
+  .upload-option-icon {
+    aspect-ratio: 0.81;
+    object-fit: contain;
+    object-position: center;
+    width: 17px;
+  }
+  
+  .folder-option {
+    display: flex;
+    margin-top: 27px;
+    gap: 17px;
+    cursor: pointer;
+  }
+  
+  .folder-icon {
+    aspect-ratio: 1.23;
+    object-fit: contain;
+    object-position: center;
+    width: 21px;
+    margin: auto 0;
+  }
+  .document-section {
+    border-radius: 20px;
+    background-color: rgba(249, 250, 255, 1);
+    overflow: hidden;
+  }
+  
+  .close-button {
+    background-color: rgba(237, 37, 78, 1);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .minimize-button {
+    background-color: rgba(255, 199, 0, 1);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .maximize-button {
+    background-color: rgba(55, 241, 152, 1);
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .upload-section {
+    margin-top: 35px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    background-color: #f9faff;
+  }
+  
+  .upload-controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 46px;
+  }
+  
+  .upload-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: var(--White, #fff);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .upload-icon {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .recent-uploads {
+    background: var(--White, #fff);
+    border-radius: 16px;
+    padding: 36px;
+  }
+  
+  .uploads-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(265px, 1fr));
+    gap: 16px;
+    margin: 37px 0;
+  }
+  
+  .upload-card {
+    background: var(--Light-Blue, #e1f1ff);
+    border-radius: 16px;
+    padding: 22px;
+  }
+  
+  .file-preview {
+    background: var(--White, #fff);
+    border-radius: 8px;
+    padding: 17px;
+    text-align: center;
+  }
+  
+  .file-icon {
+    width: 106px;
+  }
+  
+  .file-name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--Gray, #5e5e5e);
+    margin-top: 20px;
+    font: 400 16px Manrope, sans-serif;
+  }
+  
+  .uploads-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .uploads-table th,
+  .uploads-table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid var(--Gray, #5e5e5e);
+  }
+  
+  .uploads-table th {
+    color: var(--Black, #000);
+    font: 400 14px Manrope, sans-serif;
+  }
+  
+  .uploads-table td {
+    color: var(--Gray, #5e5e5e);
+    font: 400 16px Manrope, sans-serif;
+  }
+  .help-support {
+    margin-top: 27em;
+  }
+  .visually-hidden {
+    display: none;
+  }
+  /* Base CSS remains unchanged */
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .upload-container {
+    align-items: center; /* Center align for better appearance on mobile */
+    font: 500 12px Manrope, sans-serif; /* Smaller font size */
+  }
+
+  .preview-image {
+    width: 80px; /* Reduce size for smaller screens */
+  }
+
+  .upload-options {
+    width: 100%; /* Adjust width for small screens */
+    margin-top: 12px;
+    padding: 15px 10px;
+  }
+
+  .upload-option {
+    gap: 12px; /* Smaller gap */
+  }
+
+  .folder-option {
+    margin-top: 15px;
+    gap: 12px;
+  }
+
+  .document-section {
+    border-radius: 16px; /* Slightly smaller radius */
+  }
+
+  .upload-section {
+    flex-direction: column; /* Stack items vertically */
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+  .upload-controls {
+    flex-direction: column; /* Stack controls vertically */
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .upload-button {
+    gap: 8px;
+    padding: 6px 12px; /* Adjust padding */
+  }
+
+  .upload-icon {
+    width: 12px;
+    height: 12px; /* Adjust size */
+  }
+
+  .recent-uploads {
+    padding: 20px; /* Reduce padding */
+  }
+
+  .uploads-grid {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 10px;
+    margin: 20px 0;
+  }
+
+  .upload-card {
+    padding: 15px; /* Reduce padding */
+  }
+
+  .file-preview {
+    padding: 12px; /* Adjust padding */
+  }
+
+  .file-icon {
+    width: 80px; /* Reduce size */
+  }
+
+  .file-name {
+    font: 400 14px Manrope, sans-serif; /* Smaller font size */
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .uploads-table th,
+  .uploads-table td {
+    padding: 8px; /* Adjust padding */
+    font: 400 12px Manrope, sans-serif; /* Smaller font size */
+  }
+
+  .help-support {
+    margin-top: 15em; /* Adjust for better layout */
+  }
+}

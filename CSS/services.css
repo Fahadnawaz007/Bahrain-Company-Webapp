@@ -1,0 +1,351 @@
+  .main-content {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-right: 3%;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    padding-left: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    background-color: #f9faff;
+    box-shadow: 0 1px rgba(78, 78, 78, 0.25);
+    width: 100%;
+    padding: 32px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .page-title {
+    color: #073f73;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .user-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    background: #fff;
+  }
+  
+  .user-avatar {
+    width: 20px;
+    border-radius: 12px;
+  }
+  
+  .user-name {
+    font-size: 12px;
+    color: #000;
+  }
+  
+  .dropdown-icon {
+    width: 8px;
+  }
+  
+  .notification-icon {
+    width: 17px;
+  }
+  
+  .settings-icon {
+    width: 16px;
+  }
+  
+  .service-info {
+    margin: 28px 14px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1073px;
+  }
+  
+  .service-title {
+    color: #073f73;
+    font-size: 30px;
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  
+  .service-description {
+    color: #5e5e5e;
+    font-size: 18px;
+    font-family: Manrope, sans-serif;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+  }
+  
+  .fee-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 14px;
+  }
+  
+  .fee-card {
+    flex: 1 1 240px;
+    max-width: 400px;
+    padding: 11px 12px 0;
+  }
+  
+  .fee-content {
+    background-color: #f9faff;
+    border-radius: 9px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    padding: 19px 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fee-label {
+    color: #000;
+    font-size: 14px;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .fee-amount {
+    color: #0056c4;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Manrope, sans-serif;
+  }
+  .help-support{
+    margin-top: 20em;
+  }
+  
+  /* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  } */
+
+
+  .service-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .renewal-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .renewal-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .renewal-container {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .content-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .text-column {
+    width: 61%;
+  }
+  
+  .text-content {
+    display: flex;
+    margin-top: 9px;
+    flex-direction: column;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .heading {
+    color: var(--Blue, #073f73);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .description {
+    color: var(--Gray, #5e5e5e);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    margin-top: 18px;
+  }
+  
+  .dots-column {
+    width: 16%;
+  }
+  
+  .dots-wrapper {
+    display: flex;
+    margin-top: 9px;
+    gap: 40px 44px;
+  }
+  
+  .yellow-dot {
+    background-color: rgba(255, 195, 0, 1);
+    border-radius: 50%;
+    align-self: end;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .red-dot {
+    background-color: rgba(245, 93, 62, 1);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-top: 48px;
+  }
+  
+  .green-dot {
+    background-color: rgba(0, 224, 201, 1);
+    border-radius: 50%;
+    align-self: start;
+    width: 28px;
+    height: 28px;
+    margin-top: 24px;
+  }
+  
+  .purple-column {
+    width: 23%;
+  }
+  
+  .purple-box {
+    border-radius: 8px;
+    background-color: rgba(204, 164, 255, 0.3);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding: 28px 0px 50px 0px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    align-self: center;
+    margin-left: -44px;
+  }
+  
+  .fee-grid {
+    display: flex;
+    width: 77%;
+    flex-wrap: wrap;
+    gap: 16px 0px;
+    margin: 14px 10px 0;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .fee-card {
+    flex: 1;
+    min-width: 240px;
+    max-width: 344px;
+    padding: 11px 12px 0;
+  }
+  
+  .fee-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 250, 255, 1);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    border-radius: 9px;
+    padding: 19px 27px;
+  }
+  
+  .fee-label {
+    color: var(--Black, #000);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .fee-amount {
+    color: var(--Accent, #0056c4);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .bank-help-support{
+    margin-top: 8em;
+  }
+
+  .welcome-title{
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .renewal-section,
+    .renewal-wrapper,
+    .renewal-container {
+      max-width: 100%;
+    }
+  
+    .content-grid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    .content-wrapper{
+      padding: 0;
+    }
+    .service-info{
+      margin: 0;
+    }
+  
+    .text-column{
+      width: 100%;
+    }
+  
+    .text-content{
+      margin-top: 0px;
+    }
+    .dots-column{
+      display: none;
+    }
+    .purple-column{
+      display: none;
+    }
+  
+    .fee-content {
+    align-items: flex-start;
+    text-align: left;
+    padding: 16px 20px;
+    }
+    
+    .user-avatar{
+      height: 15px !important;
+    }
+    .welcome-title{
+      display: block;
+      margin: 20px 0 0 10px ;
+    }
+  }

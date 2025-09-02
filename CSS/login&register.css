@@ -1,0 +1,83 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .auth-wrapper {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 16px 80px 403px 13px;
+  }
+  
+  .auth-content {
+    align-self: center;
+    display: flex;
+    width: 300px;
+    max-width: 100%;
+    flex-direction: column;
+    color: rgba(7, 63, 115, 1);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 140px 0 -81px;
+    font: 600 16px/1 Montserrat, sans-serif;
+  }
+  
+  .logo {
+    aspect-ratio: 0.99;
+    object-fit: contain;
+    object-position: center;
+    width: 183px;
+    align-self: center;
+    max-width: 100%;
+  }
+  .auth-buttons {
+    display: flex;
+    margin-top: 27px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .auth-btn {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    min-height: 45px;
+    width: 100%;
+    border: none;
+    color: rgba(7, 63, 115, 1);
+    font: 600 16px/1 Montserrat, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .auth-btn:hover {
+    outline: 2px solid rgba(7, 63, 115, 1);
+    outline-offset: 2px;
+  }
+  .register-btn {
+    margin-top: 27px;
+  }
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  @media (max-width: 991px) {
+    .auth-btn {
+      padding: 13px 20px;
+      
+    }
+    .auth-content {
+      margin: 40px 0 10px;
+    }
+    .auth-wrapper {
+      max-width: 100%;
+      padding: 0 20px 100px 0;
+    }
+  }

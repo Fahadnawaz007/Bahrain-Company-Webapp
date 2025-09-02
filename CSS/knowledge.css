@@ -1,0 +1,168 @@
+/******** Knowledge Page *******/
+.main-content {
+    width: 81%;
+    margin-left: 20px;
+    font-family: Manrope, sans-serif;
+  }
+  
+  .knowledge-search-bar {
+    border-radius: 8px;
+    background: #fff;
+    padding: 20px 14px;
+    width: 407px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 52px;
+  }
+  
+  .knowledge-search-input {
+    border: none;
+    font-size: 14px;
+    color: #5E5E5E;
+    width: 100%;
+  }
+  
+  .upload-section {
+    border-radius: 13.946px;
+    background: #E1F1FF;
+    padding: 0 0 11px 42px;
+    margin-top: 49px;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .upload-content {
+    flex: 1;
+  }
+  
+  .upload-title {
+    color: #073F73;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .upload-description {
+    color: #5E5E5E;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 17px;
+  }
+  
+  .areoplane-img{
+    spect-ratio: 1.06;
+      object-fit: contain;
+      object-position: center;
+      width: 100%;
+      align-self: end;
+      z-index: 10;
+      margin-top: -54px;
+      flex: 1;
+  }
+  
+  .instructions-title {
+    color: #073F73;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 42px;
+  }
+  
+  .instruction-item {
+    display: flex;
+    gap: 18px;
+    margin-top: 28px;
+    font-size: 16px;
+    color: #5E5E5E;
+    letter-spacing: 0.32px;
+  }
+  
+  .instruction-bullet {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #0056C4;
+    margin: auto 0;
+  }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .main-content {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 16px;
+    }
+  
+    .knowledge-search-bar {
+      width: 100%;
+      padding: 14px;
+      margin-top: 20px;
+    }
+  
+    .upload-section {
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+      margin-top: 30px;
+    }
+  
+    .upload-title {
+      font-size: 24px;
+    }
+  
+    .upload-description {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .areoplane-img {
+      margin-top: 0;
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .instructions-title {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+  
+    .instruction-item {
+      font-size: 14px;
+      gap: 12px;
+    }
+  
+    .instruction-bullet {
+      width: 7px;
+      height: 7px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .knowledge-search-bar {
+      gap: 10px;
+    }
+  
+    .upload-section {
+      padding: 16px;
+    }
+  
+    .upload-title {
+      font-size: 20px;
+    }
+  
+    .upload-description {
+      font-size: 14px;
+    }
+  
+    .areoplane-img {
+      width: 100%;
+    }
+  
+    .instructions-title {
+      font-size: 18px;
+    }
+  
+    .instruction-item {
+      font-size: 12px;
+    }
+  }

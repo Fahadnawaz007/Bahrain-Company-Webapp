@@ -1,0 +1,170 @@
+.tasks-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 20px; /* Add spacing between rows and columns */
+    margin-top: 8px;
+    width: 860px;
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .task-card {
+    border-radius: 17px;
+    display: flex;
+    min-height: 198px;
+    flex-direction: column;
+    padding: 15px 19px 11px;
+    color: #073f73;
+    background-color: #e1f1ff;
+    transition: background 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  }
+.task-card:hover{
+    background: linear-gradient(180deg, #0056c4 0%, #00295e 100%);
+    color: #fff;
+} 
+.task-card.active{
+    background: linear-gradient(180deg, #0056c4 0%, #00295e 100%);
+    color: #fff;
+}   
+  
+.task-card:hover .task-status {
+  color: #073f73; /* Keep the text color */
+  background-color: #fff; /* Change the background color */
+  border: 1px solid #fff; /* Add a white border */
+}
+
+.task-card.active .task-status {
+    color: #073f73; /* Keep the text color */
+    background-color: #fff; /* Change the background color */
+    border: 1px solid #fff; /* Add a white border */
+  }
+.task-card:active .task-status {
+    color: #073f73; /* Keep the text color */
+    background-color: #fff; /* Change the background color */
+    border: 1px solid #fff; /* Add a white border */
+  }
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+  }
+  .taskmanagement-title{
+    display: none;
+  }
+  
+  .task-stage {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .task-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-title {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-top: 28px;
+  }
+  
+  .task-meta {
+    display: flex;
+    margin-top: 28px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-date {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    font-weight: 400;
+  }
+  
+  .task-status {
+    border-radius: 54px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 9px 17px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .task-card:hover .task-status { 
+    color: white;
+    background: linear-gradient(180deg, #0056c4 0%, #00295e 100%);
+    border: 1px solid #fff; /* Add a white border */
+  }
+
+  .date-avatar {
+    width: 31px;
+    aspect-ratio: 1.06;
+    border-radius: 50%;
+  }
+  .calendar-icon {
+    aspect-ratio: 1.06;
+    object-fit: contain;
+    object-position: center;
+    width: 19px;
+    align-self:center;
+  }
+  .help-support {
+    margin-top: 28em;
+  }
+
+  @media (max-width: 768px) {
+    .tasks-grid {
+      grid-template-columns: 1fr; /* Single-column layout */
+      margin-left: -19px;
+      padding: 20px;
+    }
+  
+    .task-card {
+      padding: 10px; /* Smaller padding for compact display */
+      min-height: auto; /* Allow flexible height */
+    }
+  
+    .task-header {
+      font-size: 14px; /* Smaller font for header */
+    }
+  
+    .task-title {
+      font-size: 16px; /* Adjust title size */
+      margin-top: 15px; /* Reduced margin */
+    }
+  
+    .task-meta {
+      margin-top: 15px; /* Adjusted spacing for meta section */
+      flex-wrap: wrap; /* Allow elements to wrap */
+    }
+  
+    .task-date {
+      gap: 8px; /* Reduce spacing between date elements */
+      font-size: 12px; /* Smaller font size */
+    }
+  
+    .task-status {
+      padding: 6px 12px; /* Compact padding */
+      font-size: 12px; /* Adjust font size */
+    }
+  
+    .date-avatar {
+      width: 24px; /* Smaller avatar size */
+    }
+  
+    .calendar-icon {
+      width: 14px; /* Smaller calendar icon */
+    }
+    .taskmanagement-title{
+      display: block;
+      color: #073f73;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+  }
+  
