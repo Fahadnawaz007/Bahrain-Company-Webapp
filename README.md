@@ -14,4 +14,4 @@ The goal was to design a modern, clean, and mobile-friendly dashboard that highl
 - CSS3
 
 ## 🔗 Live Demo
-👉 [View Project on Netlify]([https://your-netlify-link.netlify.app](https://bahrain-company-webapp.netlify.app/))
+👉 [View Project on Netlify]([https://bahrain-company-webapp.netlify.app/])
